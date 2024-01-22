@@ -1,0 +1,763 @@
+<html>
+
+<head>
+  <title>Daniels</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&family=Poppins:wght@300;400;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <section id="sideBar">
+    <div class="sideBar-inner">
+      <h4>Customize Website</h4>
+      <h6>Choose Color</h6>
+      <span class="color-box"></span>
+      <span class="color-box"></span>
+      <span class="color-box"></span>
+      <span class="color-box"></span>
+      <span class="color-box"></span>
+
+
+      <h6>Choose image :</h6>
+      <div class="imagesGroup">
+        <img src="img/portfolio/1.jpg" class="imgItem d-block mt-2"/>
+        <img src="img/portfolio/2.jpg" class="imgItem d-block mt-2"/>
+        <img src="img/bg.jpg" class="imgItem d-block mt-2"/>
+        <img src="img/portfolio/3.jpg" class="imgItem d-block mt-2"/>
+        <img src="img/portfolio/4.jpg" class="imgItem d-block mt-2"/>
+        <img src="img/portfolio/5.jpg" class="imgItem d-block mt-2"/>  
+      </div>
+      
+
+    </div>
+    <i class="fa-solid fa-gear"></i>
+  </section>
+
+
+  <section id="loading">
+    <div class="spinner">
+      <div class="rect1"></div>
+      <div class="rect2"></div>
+      <div class="rect3"></div>
+      <div class="rect4"></div>
+      <div class="rect5"></div>
+    </div>
+  </section>
+
+  <a href="#home" class="btn p-3 rounded-circle text-white" id="btnUp">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <nav class="navbar navbar-expand-lg  position-fixed start-0 end-0 py-3 z-3">
+    <div class="container">
+      <a class="navbar-brand fw-bolder text-uppercase text-white" href="#">DANIELS</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active px-3 text-white" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3 text-white" aria-current="page" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3 text-white" aria-current="page" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3 text-white" aria-current="page" href="#work">Work</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link px-3 text-white" aria-current="page" href="#team">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3 text-white" aria-current="page" href="#contact">Contact</a>
+          </li>
+          <ul class="dropdown-menu m-auto">
+            <li><a class="dropdown-item" href="#home">Home</a></li>
+            <li><a class="dropdown-item" href="#about">About</a></li>
+            <li><a class="dropdown-item" href="#services">Services</a></li>
+            <li><a class="dropdown-item" href="#work">Work</a></li>
+            <li><a class="dropdown-item" href="#client">Client</a></li>
+            <li><a class="dropdown-item" href="#team">Team</a></li>
+            <li><a class="dropdown-item" href="#contact">Contact</a></li>
+          </ul>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+
+  <div class="header vh-100 w-100" id="home">
+    <div class="header-overlay vh-100 w-100 d-flex align-items-center justify-content-center text-center">
+      <div class="container ">
+        <h1>Hello</h1>
+        <p class="anime">I Am </p>
+        <div class="icons d-flex justify-content-center">
+          <div class="items bg-black rounded-circle p-2 mx-2">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f text-white"></i></a>
+          </div>
+          <div class="items bg-black rounded-circle p-2 mx-2">
+            <a href="https://twitter.com/" target="_blank"> <i class="fa-brands fa-twitter text-white"></i></a>
+          </div>
+          <div class="items bg-black rounded-circle p-2 mx-2">
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin text-white"></i></a>
+          </div>
+          <div class="items bg-black rounded-circle p-2 mx-2">
+            <a href="https://www.behance.net/search/projects/?search=login" target="_blank"><i
+                class="fa-brands fa-behance text-white"></i></a>
+          </div>
+          <div class="items bg-black rounded-circle p-2 mx-2">
+            <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube text-white"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About -->
+
+  <div class="about w-100 p-5 my-5" id="about">
+    <div class="container p-5">
+      <div class="row">
+        <div class="about-img col-lg-5 col-md-12 mb-4">
+          <img src="img/hero.jpg" class="img-fluid mx-auto w-100">
+        </div>
+        <div class="about-caption col-lg-7 col-md-12 mt-0">
+          <div class="about-text">
+            <h2 class="fw-bold text-dark pb-2" id="aboutMe">About Me.</h2>
+            <p class="fw-light text-black pb-2 text-body-secondary">UI / UX DESIGNER & WEB DEVELOPER</p>
+            <p class="pb-3 text-body-secondary">I am <span class="fw-bold">Jerry Daniels</span> Lorem Ipsum is simply
+              dummy text of the
+              printing and typesetting industry. Lorem Ipsum
+              has been the industry's standard dummy text ever It has survived not only five centuries, but also the
+              leap
+              into electronic but also the leap into electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets containing</p>
+          </div>
+          <div class="progress my-4" role="progressbar" aria-label="Warning example" aria-valuenow="95"
+            aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-black text-white px-3" style="width: 95%">
+              <div class="progress-text d-flex justify-content-between align-items-center ">
+                <p class="m-0">Web Design</p>
+                <p class="m-0">95%</p>
+              </div>
+            </div>
+          </div>
+          <div class="progress my-4" role="progressbar" aria-label="Warning example" aria-valuenow="80"
+            aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-black text-white px-3" style="width: 80%">
+              <div class="progress-text d-flex justify-content-between align-items-center">
+                <p class="m-0">Branding</p>
+                <p class="m-0">80%</p>
+              </div>
+            </div>
+          </div>
+          <div class="progress my-4" role="progressbar" aria-label="Warning example" aria-valuenow="90"
+            aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-black text-white px-3" style="width: 90%">
+              <div class="progress-text d-flex justify-content-between align-items-center">
+                <p class="m-0">Development </p>
+                <p class="m-0">90%</p>
+              </div>
+            </div>
+          </div>
+          <div class="about-buttons d-flex gap-1 my-4">
+            <button class="cv bg-black text-white py-2 px-3 rounded-2"><a>Download C.V</a></button>
+            <button class="contact bg-white text-black py-2 px-3 rounded-2"><a>Contact me</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Services -->
+
+  <div class="services bg-gray w-100 p-5" id="services">
+    <div class="container">
+      <h1 class="p-5 fw-bolder text-center">Services.</h1>
+      <div class="row justify-content-between text-center">
+        <div class="col-lg-4">
+          <div class="items bg-white p-5 my-2 rounded-2">
+            <div class="icons d-flex align-items-center justify-content-center"> <i
+                class="fa-solid fa-laptop bg-body-secondary rounded-circle p-3 my-3 "></i>
+            </div>
+            <h5>Web Design</h5>
+            <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="items bg-white p-5 my-2 rounded-2">
+            <div class="icons d-flex align-items-center justify-content-center"> <i
+                class="fa-solid fa-bullhorn bg-body-secondary rounded-circle p-3 my-3 "></i>
+            </div>
+            <h5>Branding</h5>
+            <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="items bg-white p-5 my-2 rounded-2">
+            <div class="icons d-flex align-items-center justify-content-center"> <i
+                class="fa-solid fa-umbrella bg-body-secondary rounded-circle p-3 my-3 "></i>
+            </div>
+            <h5>Development</h5>
+            <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-between text-center">
+        <div class="col-lg-4">
+          <div class="items bg-white p-5 my-2 rounded-2">
+            <div class="icons d-flex align-items-center justify-content-center"> <i
+                class="fa-regular fa-gem bg-body-secondary rounded-circle p-3 my-3 "></i>
+            </div>
+            <h5>Creative Design</h5>
+            <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="items bg-white p-5 my-2 rounded-2">
+            <div class="icons d-flex align-items-center justify-content-center"> <i
+                class="fa-solid fa-tv bg-body-secondary rounded-circle p-3 my-3 "></i>
+            </div>
+            <h5>Fully Responsive</h5>
+            <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="items bg-white p-5 my-2 rounded-2">
+            <div class="icons d-flex align-items-center justify-content-center"> <i
+                class="fa-solid fa-camera bg-body-secondary rounded-circle p-3 my-3 "></i>
+            </div>
+            <h5>Retina Ready</h5>
+            <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Portfolio -->
+
+  <div class="portfolio w-100 p-5" id="work">
+    <div class="container">
+      <h1 class="p-5 fw-bolder text-center">Portfolio.</h1>
+      <nav class="d-flex justify-content-center">
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+          <button class="nav-link active" id="nav-all-tab" data-bs-toggle="tab" data-bs-target="#nav-all" type="button"
+            role="tab" aria-controls="nav-all" aria-selected="true">All</button>
+          <button class="nav-link" id="nav-brand-tab" data-bs-toggle="tab" data-bs-target="#nav-brand" type="button"
+            role="tab" aria-controls="nav-brand" aria-selected="false">Brand</button>
+          <button class="nav-link" id="nav-design-tab" data-bs-toggle="tab" data-bs-target="#nav-design" type="button"
+            role="tab" aria-controls="nav-design" aria-selected="false">Design</button>
+          <button class="nav-link" id="nav-graphic-tab" data-bs-toggle="tab" data-bs-target="#nav-graphic" type="button"
+            role="tab" aria-controls="nav-graphic" aria-selected="false">Graphic</button>
+        </div>
+      </nav>
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-all" role="tabpanel" aria-labelledby="nav-all-tab" tabindex="0">
+          <div class="row justify-content-between my-4">
+            <div class="col-lg-4 col-md-6 my-3">
+              <div class="portfolio-items">
+                <img src="img/portfolio/1.jpg" class="img-fluid">
+                <div
+                  class="portfolio-overlay d-flex justify-content-center align-items-center position-absolute flex-column bg-white opacity-0 bg-opacity-0 ">
+                  <h6 class="fw-bold opacity-0">WEB DESIGN</h6>
+                  <div class="portfolio-icons d-flex justify-content-center">
+                    <div class="div p-2 mx-2 bg-black rounded-circle"><a href="#"><i
+                          class="fa-solid fa-link text-white"></i></a></div>
+                    <div class="div p-2 mx-2 bg-black rounded-circle"><a href="#"><i
+                          class="fa-solid fa-magnifying-glass-plus text-white"></i></a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 my-3">
+              <div class="portfolio-items">
+                <img src="img/portfolio/2.jpg" class="img-fluid">
+                <div
+                  class="portfolio-overlay d-flex justify-content-center align-items-center position-absolute flex-column bg-white opacity-0 bg-opacity-0 ">
+                  <h6 class="fw-bold opacity-0">WEB DESIGN</h6>
+                  <div class="portfolio-icons d-flex justify-content-center">
+                    <div class="div p-2 mx-2 bg-black rounded-circle"><a href="#"><i
+                          class="fa-solid fa-link text-white"></i></a></div>
+                    <div class="div p-2 mx-2 bg-black rounded-circle"><a href="#"><i
+                          class="fa-solid fa-magnifying-glass-plus text-white"></i></a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 my-3">
+              <div class="portfolio-items">
+                <img src="img/portfolio/3.jpg" class="img-fluid">
+                <div
+                  class="portfolio-overlay d-flex justify-content-center align-items-center position-absolute flex-column bg-white opacity-0 bg-opacity-0 ">
+                  <h6 class="fw-bold opacity-0">WEB DESIGN</h6>
+                  <div class="portfolio-icons d-flex justify-content-center">
+                    <div class="div p-2 mx-2 bg-black rounded-circle"><a href="#"><i
+                          class="fa-solid fa-link text-white"></i></a></div>
+                    <div class="div p-2 mx-2 bg-black rounded-circle"><a href="#"><i
+                          class="fa-solid fa-magnifying-glass-plus text-white"></i></a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 my-3">
+              <div class="portfolio-items">
+                <img src="img/portfolio/4.jpg" class="img-fluid">
+                <div
+                  class="portfolio-overlay d-flex justify-content-center align-items-center position-absolute flex-column bg-white opacity-0 bg-opacity-0 ">
+                  <h6 class="fw-bold opacity-0">WEB DESIGN</h6>
+                  <div class="portfolio-icons d-flex justify-content-center">
+                    <div class="div p-2 mx-2 bg-black rounded-circle"><a href="#"><i
+                          class="fa-solid fa-link text-white"></i></a></div>
+                    <div class="div p-2 mx-2 bg-black rounded-circle"><a href="#"><i
+                          class="fa-solid fa-magnifying-glass-plus text-white"></i></a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 my-3">
+              <div class="portfolio-items">
+                <img src="img/portfolio/5.jpg" class="img-fluid">
+                <div
+                  class="portfolio-overlay d-flex justify-content-center align-items-center position-absolute flex-column bg-white opacity-0 bg-opacity-0 ">
+                  <h6 class="fw-bold opacity-0">WEB DESIGN</h6>
+                  <div class="portfolio-icons d-flex justify-content-center">
+                    <div class="div p-2 mx-2 bg-black rounded-circle"><a href="#"><i
+                          class="fa-solid fa-link text-white"></i></a></div>
+                    <div class="div p-2 mx-2 bg-black rounded-circle"><a href="#"><i
+                          class="fa-solid fa-magnifying-glass-plus text-white"></i></a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 my-3">
+              <div class="portfolio-items">
+                <img src="img/portfolio/6.jpg" class="img-fluid">
+                <div
+                  class="portfolio-overlay d-flex justify-content-center align-items-center position-absolute flex-column bg-white opacity-0 bg-opacity-0 ">
+                  <h6 class="fw-bold opacity-0">WEB DESIGN</h6>
+                  <div class="portfolio-icons d-flex justify-content-center">
+                    <div class="div p-2 mx-2 bg-black rounded-circle"><a href="#"><i
+                          class="fa-solid fa-link text-white"></i></a></div>
+                    <div class="div p-2 mx-2 bg-black rounded-circle"><a href="#"><i
+                          class="fa-solid fa-magnifying-glass-plus text-white"></i></a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="nav-brand" role="tabpanel" aria-labelledby="nav-brand-tab" tabindex="0">
+          <div class="row my-4">
+            <div class="col-lg-4 col-md-6  my-4">
+              <div class="portfolio-items">
+                <img src="img/portfolio/1.jpg" class="img-fluid">
+                <div
+                  class="portfolio-overlay d-flex justify-content-center align-items-center position-absolute flex-column bg-white opacity-0 bg-opacity-0 ">
+                  <h6 class="fw-bold opacity-0">WEB DESIGN</h6>
+                  <div class="portfolio-icons d-flex justify-content-center">
+                    <div class="div p-2 mx-2 bg-black rounded-circle"><a href="#"><i
+                          class="fa-solid fa-link text-white"></i></a></div>
+                    <div class="div p-2 mx-2 bg-black rounded-circle"><a href="#"><i
+                          class="fa-solid fa-magnifying-glass-plus text-white"></i></a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6  my-4">
+              <div class="portfolio-items">
+                <img src="img/portfolio/2.jpg" class="img-fluid">
+                <div
+                  class="portfolio-overlay d-flex justify-content-center align-items-center position-absolute flex-column bg-white opacity-0 bg-opacity-0 ">
+                  <h6 class="fw-bold opacity-0">WEB DESIGN</h6>
+                  <div class="portfolio-icons d-flex justify-content-center">
+                    <div class="div p-2 mx-2 bg-black rounded-circle"><a href="#"><i
+                          class="fa-solid fa-link text-white"></i></a></div>
+                    <div class="div p-2 mx-2 bg-black rounded-circle"><a href="#"><i
+                          class="fa-solid fa-magnifying-glass-plus text-white"></i></a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="nav-design" role="tabpanel" aria-labelledby="nav-design-tab" tabindex="0">
+          <div class="row justify-content-between my-4">
+            <div class="col-lg-4 col-md-6  my-2">
+              <div class="portfolio-items">
+                <img src="img/portfolio/3.jpg" class="img-fluid">
+                <div
+                  class="portfolio-overlay d-flex justify-content-center align-items-center position-absolute flex-column bg-white opacity-0 bg-opacity-0 ">
+                  <h6 class="fw-bold opacity-0">WEB DESIGN</h6>
+                  <div class="portfolio-icons d-flex justify-content-center">
+                    <div class="div p-2 mx-2 bg-black rounded-circle"><a href="#"><i
+                          class="fa-solid fa-link text-white"></i></a></div>
+                    <div class="div p-2 mx-2 bg-black rounded-circle"><a href="#"><i
+                          class="fa-solid fa-magnifying-glass-plus text-white"></i></a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6  my-2">
+              <div class="portfolio-items">
+                <img src="img/portfolio/4.jpg" class="img-fluid">
+                <div
+                  class="portfolio-overlay d-flex justify-content-center align-items-center position-absolute flex-column bg-white opacity-0 bg-opacity-0 ">
+                  <h6 class="fw-bold opacity-0">WEB DESIGN</h6>
+                  <div class="portfolio-icons d-flex justify-content-center">
+                    <div class="div p-2 mx-2 bg-black rounded-circle"><a href="#"><i
+                          class="fa-solid fa-link text-white"></i></a></div>
+                    <div class="div p-2 mx-2 bg-black rounded-circle"><a href="#"><i
+                          class="fa-solid fa-magnifying-glass-plus text-white"></i></a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6  my-2">
+              <div class="portfolio-items">
+                <img src="img/portfolio/5.jpg" class="img-fluid">
+                <div
+                  class="portfolio-overlay d-flex justify-content-center align-items-center position-absolute flex-column bg-white opacity-0 bg-opacity-0 ">
+                  <h6 class="fw-bold opacity-0">WEB DESIGN</h6>
+                  <div class="portfolio-icons d-flex justify-content-center">
+                    <div class="div p-2 mx-2 bg-black rounded-circle"><a href="#"><i
+                          class="fa-solid fa-link text-white"></i></a></div>
+                    <div class="div p-2 mx-2 bg-black rounded-circle"><a href="#"><i
+                          class="fa-solid fa-magnifying-glass-plus text-white"></i></a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="nav-graphic" role="tabpanel" aria-labelledby="nav-graphic-tab" tabindex="0">
+          <div class="row my-4">
+            <div class="col-lg-4 col-m-12">
+              <div class="portfolio-items">
+                <img src="img/portfolio/6.jpg" class="img-fluid">
+                <div
+                  class="portfolio-overlay d-flex justify-content-center align-items-center position-absolute flex-column bg-white opacity-0 bg-opacity-0 ">
+                  <h6 class="fw-bold opacity-0">WEB DESIGN</h6>
+                  <div class="portfolio-icons d-flex justify-content-center">
+                    <div class="div p-2 mx-2 bg-black rounded-circle"><a href="#"><i
+                          class="fa-solid fa-link text-white"></i></a></div>
+                    <div class="div p-2 mx-2 bg-black rounded-circle"><a href="#"><i
+                          class="fa-solid fa-magnifying-glass-plus text-white"></i></a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--Testimonials -->
+
+  <div class="Testimonials py-5">
+    <div class="container">
+      <h1 class="p-5 fw-bolder text-center">Testimonials.</h1>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="Testimonials-card w-75 mx-auto d-flex flex-column">
+              <div class="test-img d-flex justify-content-center">
+                <img src="img/1_New1.jpg" class="rounded-circle mb-3 img-fluid ">
+              </div>
+              <p class="text-center text-dark-emphasis">Lorem, ipsum dolor sit amet consectetur adipisicing
+                elit. Debitis et
+                laboriosam obcaecati
+                aspernatur? Cum beatae sit fugiat cumque, enim expedita dolorum, aliquam dolores iste magni
+                temporibus sint aut, numquam perspiciatis!</p>
+              <div class="testimonials-content d-flex justify-content-center text-center flex-column">
+                <h5>Alex Smith</h5>
+                <p>Envato Customer</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="Testimonials-card w-75 mx-auto d-flex flex-column">
+              <div class="test-img d-flex justify-content-center">
+                <img src="img/1_New1.jpg" class="rounded-circle mb-3 img-fluid ">
+              </div>
+              <p class="text-center text-dark-emphasis">Lorem, ipsum dolor sit amet consectetur adipisicing
+                elit. Debitis et
+                laboriosam obcaecati
+                aspernatur? Cum beatae sit fugiat cumque, enim expedita dolorum, aliquam dolores iste magni
+                temporibus sint aut, numquam perspiciatis!</p>
+              <div class="testimonials-content d-flex justify-content-center text-center flex-column">
+                <h5>Alex Smith</h5>
+                <p>Envato Customer</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="Testimonials-card w-75 mx-auto d-flex flex-column">
+              <div class="test-img d-flex justify-content-center">
+                <img src="img/1_New1.jpg" class="rounded-circle mb-3 img-fluid ">
+              </div>
+              <p class="text-center text-dark-emphasis">Lorem, ipsum dolor sit amet consectetur adipisicing
+                elit. Debitis et
+                laboriosam obcaecati
+                aspernatur? Cum beatae sit fugiat cumque, enim expedita dolorum, aliquam dolores iste magni
+                temporibus sint aut, numquam perspiciatis!</p>
+              <div class="testimonials-content d-flex justify-content-center text-center flex-column">
+                <h5>Alex Smith</h5>
+                <p>Envato Customer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-indicators position-static">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- counter -->
+
+  <div class="counter py-5">
+    <div class="container">
+      <div class="row text-center align-items-center">
+        <div class="col-md-3 my-2">
+          <div class="counter-item">
+            <i class="fa-solid fa-user-group fs-1 my-2"></i>
+            <h4 class="fw-bolder">850</h4>
+            <p>Happy Customers</p>
+          </div>
+        </div>
+        <div class="col-md-3 my-2">
+          <div class="counter-item">
+            <i class="fa-solid fa-thumbs-up fs-1 my-2"></i>
+            <h4 class="fw-bolder">230</h4>
+            <p>Complete Projects</p>
+          </div>
+        </div>
+        <div class="col-md-3 my-2">
+          <div class="counter-item">
+            <i class="fa-solid fa-bullhorn fs-1 my-2"></i>
+            <h4 class="fw-bolder">9450</h4>
+            <p>Lines Of Code</p>
+          </div>
+        </div>
+        <div class="col-md-3 my-2">
+          <div class="counter-item">
+            <i class="fa-solid fa-cloud-download fs-1 my-2"></i>
+            <h4 class="fw-bolder">780</h4>
+            <p>Files Downloaded</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- our team -->
+  <div class="our-team w-100 p-5" id="team">
+    <div class="container">
+      <h1 class="p-4 fw-bolder text-center">Our Team.</h1>
+      <div class="row justify-content-center g-3 px-3 w-100 mx-auto my-5">
+        <div class="card col-lg-4 col-md-6 p-0 mb-3">
+          <div class="card-content p-3">
+            <div class="card-items ">
+              <div class="card-image overflow-hidden">
+                <img src="img/1.jpg" class="card-img-top">
+              </div>
+              <div
+                class="team-overlay position-absolute bg-white d-flex justify-content-center align-items-center opacity-0">
+                <div class="items  rounded-circle  mx-2">
+                  <a href="https://www.facebook.com/" target="_blank"><i
+                      class="fa-brands fa-facebook-f text-white"></i></a>
+                </div>
+                <div class="items  rounded-circle  mx-2">
+                  <a href="https://twitter.com/" target="_blank"> <i class="fa-brands fa-twitter text-white"></i></a>
+                </div>
+                <div class="items  rounded-circle  mx-2">
+                  <a href="https://www.linkedin.com/" target="_blank"><i
+                      class="fa-brands fa-linkedin text-white"></i></a>
+                </div>
+                <div class="items  rounded-circle  mx-2">
+                  <a href="https://www.behance.net/search/projects/?search=login" target="_blank"><i
+                      class="fa-brands fa-behance text-white"></i></a>
+                </div>
+              </div>
+              <div class="card-body text-center rounded-bottom-3">
+                <p class="mb-2 fw-semibold fs-4">John Doe</p>
+                <p class="mb-2 fw-bolder fs-5">FRONT-END DEVELOPER</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card col-lg-4 col-md-6 p-0 mb-3">
+          <div class="card-content p-3">
+            <div class="card-items overflow-hidden">
+              <div class="card-image overflow-hidden">
+                <img src="img/2.jpg" class="card-img-top">
+              </div>
+              <div
+                class="team-overlay position-absolute bg-white d-flex justify-content-center align-items-center opacity-0">
+                <div class="items  rounded-circle  mx-2">
+                  <a href="https://www.facebook.com/" target="_blank"><i
+                      class="fa-brands fa-facebook-f text-white"></i></a>
+                </div>
+                <div class="items  rounded-circle  mx-2">
+                  <a href="https://twitter.com/" target="_blank"> <i class="fa-brands fa-twitter text-white"></i></a>
+                </div>
+                <div class="items  rounded-circle  mx-2">
+                  <a href="https://www.linkedin.com/" target="_blank"><i
+                      class="fa-brands fa-linkedin text-white"></i></a>
+                </div>
+                <div class="items  rounded-circle  mx-2">
+                  <a href="https://www.behance.net/search/projects/?search=login" target="_blank"><i
+                      class="fa-brands fa-behance text-white"></i></a>
+                </div>
+              </div>
+              <div class="card-body text-center rounded-bottom-3">
+                <p class="mb-2 fw-semibold fs-4">John Doe</p>
+                <p class="mb-2 fw-bolder fs-5">FRONT-END DEVELOPER</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card col-lg-4 col-md-6 p-0 mb-3">
+          <div class="card-content p-3">
+            <div class="card-items overflow-hidden">
+              <div class="card-image overflow-hidden">
+                <img src="img/1.jpg" class="card-img-top">
+              </div>
+              <div
+                class="team-overlay position-absolute bg-white d-flex justify-content-center align-items-center opacity-0">
+                <div class="items  rounded-circle  mx-2">
+                  <a href="https://www.facebook.com/" target="_blank"><i
+                      class="fa-brands fa-facebook-f text-white"></i></a>
+                </div>
+                <div class="items  rounded-circle  mx-2">
+                  <a href="https://twitter.com/" target="_blank"> <i class="fa-brands fa-twitter text-white"></i></a>
+                </div>
+                <div class="items  rounded-circle  mx-2">
+                  <a href="https://www.linkedin.com/" target="_blank"><i
+                      class="fa-brands fa-linkedin text-white"></i></a>
+                </div>
+                <div class="items  rounded-circle  mx-2">
+                  <a href="https://www.behance.net/search/projects/?search=login" target="_blank"><i
+                      class="fa-brands fa-behance text-white"></i></a>
+                </div>
+              </div>
+              <div class="card-body text-center rounded-bottom-3">
+                <p class="mb-2 fw-semibold fs-4">John Doe</p>
+                <p class="mb-2 fw-bolder fs-5">FRONT-END DEVELOPER</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="contact py-4" id="contact">
+    <div class="container">
+      <h1 class="p-4 fw-bolder text-center mt-5 pt-5">Contact Us.</h1>
+      <div class="row text-center">
+        <div class="col-lg-4">
+          <div class="items bg-white p-2 my-2 rounded-2">
+            <div class="icons d-flex align-items-center justify-content-center"> <i
+                class="fa-solid fa-location-arrow bg-body-secondary rounded-circle p-3 my-3 "></i>
+            </div>
+            <h5>Address</h5>
+            <p>6834 Hollywood Blvd - Los Angeles CA</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="items bg-white p-2 my-2 rounded-2">
+            <div class="icons d-flex align-items-center justify-content-center"> <i
+                class="fa-solid fa-envelope bg-body-secondary rounded-circle p-3 my-3 "></i>
+            </div>
+            <h5>E-mail</h5>
+            <p>6834 Hollywood Blvd - Los Angeles CA</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="items bg-white p-2 my-2 rounded-2">
+            <div class="icons d-flex align-items-center justify-content-center"> <i
+                class="fa-solid fa-phone bg-body-secondary rounded-circle p-3 my-3 "></i>
+            </div>
+            <h5>Phone</h5>
+            <p>6834 Hollywood Blvd - Los Angeles CA</p>
+          </div>
+        </div>
+      </div>
+
+      <form>
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-lg-6 mt-3">
+              <div class="div">
+                <input type="text" name="username" id="username" placeholder="Name"
+                  class="bg-body-tertiary w-100 border-0 p-2 rounded-2 ">
+              </div>
+            </div>
+            <div class="col-lg-6 mt-3">
+              <div class="div">
+                <input type="text" name="Email" id="Email" placeholder="Email"
+                  class="bg-body-tertiary w-100 border-0 p-2 rounded-2 ">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col mt-3">
+              <textarea name="msg" id="msg" cols="30" rows="10" resize="none"
+                class="bg-body-tertiary w-100 border-0 w-100 p-2 rounded-2" placeholder="Message"></textarea>
+            </div>
+          </div>
+          <div class="d-flex gap-1 my-4">
+            <button class="btn-form bg-black text-white py-2 px-3 rounded-2" type="submit"><a>Submit</a></button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+  <!-- footer -->
+  <div class="footer bg-dark w-100">
+    <div class="container">
+      <p class="mb-0 py-4 text-center">Copy Right 2018 © By Daniels All Rights Reserved</p>
+    </div>
+  </div>
+
+
+  <!-- <section id="particles-js" class="vh-100 bg-dark"></section> -->
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <!-- <script src="js/particles.js"></script> -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,582 @@
+/* html{
+  scroll-behavior: smooth;
+} */
+
+:root {
+  --poppins-font: "Poppins", sans-serif;
+  --Montserrat-font: "Montserrat", sans-serif;
+}
+
+button,
+a {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* js */
+body{
+  overflow: hidden;
+}
+
+.navbar{
+  transition: background-color 1s ease;
+}
+
+#btnUp{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 9999;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.imgItem{
+  width: 200px;
+  cursor: pointer;
+}
+
+#sideBar{
+  display: flex;
+  /* background-color: tomato; */
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: 99999;
+}
+
+.sideBar-inner{
+  background-color: #fff;
+  padding: 10px;
+}
+
+#sideBar i {
+  transform: translateY(100%);
+  align-self: flex-start;
+  background-color: lightseagreen;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.imagesGroup{
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  padding-block-end: 50%;
+}
+
+.color-box{
+  background-color: tomato;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+#loading{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #333;
+  z-index: 99999999;
+}
+.spinner {
+  margin: 300px auto;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.spinner > div {
+  background-color: #fff;
+  height: 100%;
+  width: 6px;
+  display: inline-block;
+  
+  -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+@-webkit-keyframes sk-stretchdelay {
+  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+  20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes sk-stretchdelay {
+  0%, 40%, 100% { 
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }  20% { 
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
+  }
+}
+
+/* Header */
+
+.header {
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: initial;
+}
+
+.header-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.header h1 {
+  font-weight: bolder;
+  font-size: 50px;
+  color: #fff;
+}
+.header p {
+  font-size: 70px;
+  font-family: var(--poppins-font);
+  font-weight: lighter;
+  color: #fff;
+
+}
+
+.header .anime::after {
+  content: "";
+  animation: retype 5s infinite ease-in-out forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes retype {
+  0% {
+    content: "";
+  }
+  1% {
+    content: "L";
+  }
+  2% {
+    content: "La";
+  }
+  3% {
+    content: "Lar";
+  }
+  4% {
+    content: "Larr";
+  }
+  5% {
+    content: "Larry";
+  }
+  6% {
+    content: "Larry ";
+  }
+  7% {
+    content: "Larry D";
+  }
+  8% {
+    content: "Larry Da";
+  }
+  9% {
+    content: "Larry Dan";
+  }
+  10% {
+    content: "Larry Dani";
+  }
+  11% {
+    content: "Larry Danie";
+  }
+  12% {
+    content: "Larry Daniel";
+  }
+  13% {
+    content: "Larry Daniels";
+  }
+  20% {
+    content: "Larry Daniels";
+  }
+  21% {
+    content: "Larry Daniel";
+  }
+  21% {
+    content: "Larry Danie";
+  }
+  22% {
+    content: "Larry Dani";
+  }
+  23% {
+    content: "Larry Dan";
+  }
+  24% {
+    content: "Larry Da";
+  }
+  25% {
+    content: "Larry D";
+  }
+  26% {
+    content: "Larry ";
+  }
+  27% {
+    content: "Larry";
+  }
+  28% {
+    content: "Larr";
+  }
+  29% {
+    content: "Lar";
+  }
+  30% {
+    content: "La";
+  }
+  31% {
+    content: "L";
+  }
+  32% {
+    content: "";
+  }
+  39% {
+    content: "";
+  }
+  40% {
+    content: "D";
+  }
+  41% {
+    content: "De";
+  }
+  42% {
+    content: "Dev";
+  }
+  43% {
+    content: "Deve";
+  }
+  44% {
+    content: "Devel";
+  }
+  45% {
+    content: "Develo";
+  }
+  46% {
+    content: "Develop";
+  }
+  47% {
+    content: "Develope";
+  }
+  48% {
+    content: "Developer";
+  }
+  55% {
+    content: "Developer";
+  }
+  56% {
+    content: "Develope";
+  }
+  57% {
+    content: "Develop";
+  }
+  58% {
+    content: "Develo";
+  }
+  59% {
+    content: "Devel";
+  }
+  60% {
+    content: "Deve";
+  }
+  61% {
+    content: "Dev";
+  }
+  62% {
+    content: "De";
+  }
+  63% {
+    content: "D";
+  }
+  64% {
+    content: "";
+  }
+  71% {
+    content: "";
+  }
+  72% {
+    content: "D";
+  }
+  73% {
+    content: "De";
+  }
+  74% {
+    content: "Des";
+  }
+  75% {
+    content: "Desi";
+  }
+  76% {
+    content: "Desig";
+  }
+  77% {
+    content: "Design";
+  }
+  78% {
+    content: "Designe";
+  }
+  79% {
+    content: "Designer";
+  }
+  86% {
+    content: "Designer";
+  }
+  87% {
+    content: "Designe";
+  }
+  88% {
+    content: "Design";
+  }
+  89% {
+    content: "Desig";
+  }
+  90% {
+    content: "Desi";
+  }
+  91% {
+    content: "Des";
+  }
+  92% {
+    content: "De";
+  }
+  93% {
+    content: "D";
+  }
+  94% {
+    content: "";
+  }
+  100% {
+    content: "";
+  }
+}
+
+/* about */
+
+.about-caption {
+  font-family: var(--Montserrat-font);
+}
+
+.about-buttons {
+  font-size: 12px;
+}
+
+.progress {
+  height: 4vh;
+}
+
+.about-buttons .cv,
+.about-buttons .contact,
+.contact .btn-form {
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.about-buttons .cv:hover,
+.contact .btn-form:hover {
+  background-color: white !important;
+  color: #111 !important;
+}
+
+.about-buttons .contact:hover {
+  background-color: black !important;
+  color: white !important;
+}
+
+/* services */
+
+.services,
+.our-team , 
+.Testimonials
+{
+  background-color: #f7f7f7 !important;
+}
+
+.services h1,
+.portfolio h1,
+.our-team h1,
+.contact h1,
+.Testimonials h1 {
+  font-family: var(--Montserrat-font);
+  font-size: 2.5rem;
+}
+
+.services .items .icons {
+  font-size: 32px;
+}
+.services .items .icons i,
+.contact .items .icons i {
+  transition: all 0.5s ease-in-out;
+}
+
+.services .items:hover .icons i,
+.contact .items:hover .icons i {
+  background-color: #111 !important;
+  color: white;
+}
+
+.services .items h5 {
+  font-family: var(--Montserrat-font);
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.services .items p {
+  font-size: 14px;
+}
+
+/* portfolio */
+
+.portfolio .nav-link {
+  color: #111 !important;
+  font-family: var(--Montserrat-font);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.portfolio-items{
+  position: relative;
+}
+
+.portfolio-overlay{
+  top: 35px;
+  left: 12.5px;
+  right: 12.5px;
+  bottom: 12.5px;
+  padding: 20px;
+  transition: top 0.5s ease-in-out , opacity 0.3s ease-in-out;
+}
+
+
+.portfolio-items:hover .portfolio-overlay{
+  top: 12.5px !important;
+  opacity: 1 !important;
+}
+
+.portfolio-items .portfolio-overlay h6{
+  top: 50px;
+  transition: top 0.5s ease-in-out , opacity 0.3s ease-in-out;
+}
+
+
+.portfolio-items:hover .portfolio-overlay h6{
+  top: 0px;
+  opacity: 1 !important;
+
+}
+
+/* Testimonials */
+
+.carousel-indicators [data-bs-target]{
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  background-color: #869791;
+}
+
+/* our team */
+
+.card {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.card-items{
+  position: relative;
+}
+
+.team-overlay{
+  top: 7.5px;
+  left: 7.5px;
+  right: 7.5px;
+  bottom: 119px;
+  padding: 20px;
+  overflow: hidden;
+  transform: rotateY(180deg) scale(0.7,0.7);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+
+.card-items:hover .team-overlay{
+  transform: rotateY(0) scale(1,1);
+  opacity: 1 !important;
+}
+
+.team-overlay .items{
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  overflow: hidden;
+}
+
+.team-overlay .items a{
+  display: flex;
+  justify-content: center;align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.card-items img{
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.card-items:hover img{
+  transform: scale(1.2);
+}
+
+.our-team .card-body {
+  background-color: gray !important;
+  color: #fff;
+}
+
+.our-team .card-body p {
+  font-family: var(--Montserrat-font);
+}
+
+/* contact */
+
+.contact .items .icons {
+  font-size: 22px;
+}
+
+/* footer */
+
+.footer p {
+  color: #869791 !important;
+}
+
+.test-img{
+  width: 100px !important;
+  margin: auto;
+  
+}
+
